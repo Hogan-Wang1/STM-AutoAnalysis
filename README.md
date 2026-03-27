@@ -1,5 +1,5 @@
 # STM-AutoAnalysis
-A Python toolkit for automated STM data analysis (SXM &amp; DAT formats).
+A Python toolkit for automated STM data analysis (DAT formats).
 
 这是一个专为扫描隧道谱 (STS) 数据设计的自动化分析与可视化工具。
 
