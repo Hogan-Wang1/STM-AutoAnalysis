@@ -16,7 +16,7 @@ PLOT_CONFIG = {
 # ==========================================
 PHYSICS_CONFIG = {
     "x_multiplier": 1000,        # X轴乘数：将 Nanonis 原始的 V 转换为 mV
-    "y_multiplier": 1e12,        # Y轴乘数：将原始信号 (通常是 1e-12 级别) 放大，消除坐标轴的科学计数法
+    "y_multiplier": 1,        # Y轴乘数：将原始信号 (通常是 1e-12 级别) 放大，消除坐标轴的科学计数法
     "x_label": r'Bias Voltage $V_b$ (mV)', # X轴物理标签 (支持 LaTeX 数学公式渲染)
     "y_label": r'$dI/dV$ (arb. units)'     # Y轴物理标签 (瀑布图由于进行了平移，绝对数值失去意义，通常用 arb. units)
 }
